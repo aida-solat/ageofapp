@@ -1,19 +1,30 @@
-import {connect} from "react-redux";
-import {useEffect} from "react";
-import { loadUnits } from "../../actions/appActionCreators";
+import { connect } from 'react-redux';
+import { useEffect } from 'react';
+import { loadUnits } from '../../actions/appActionCreators';
+import Header from '../../components/header';
 
-function Home(props:any) {
-    console.log('homeProps', props);
-    useEffect(() => {
-        // Update the document title using the browser API
-        props.dispatch(loadUnits());    
-      }, []);
+function Home(props: any) {
+  console.log('homeProps', props);
+  useEffect(() => {
+    // Update the document title using the browser API
+    props.dispatch(loadUnits());
+  }, []);
 
-      const randomUnit = props.app.units[Math.floor(Math.random() * props.app.units.length)];
-      console.log('randomUnit', randomUnit);
+  return (
+    <>
+      <Header />
+      <div className="container">
+        <div className="body-container">
+          <img
+            src="https://picsum.photos/800"
+            alt="age of empires 2"
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </div>
+    </>
+  );
+}
 
-    return (
-        <div>
-            {randomUnit.name}
-            {randomUnit.id}
-
+export default connect((state) => state, null)(Home);

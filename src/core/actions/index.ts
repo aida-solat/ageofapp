@@ -1,5 +1,5 @@
-import * as appActionCreators from "./appActionCreators";
+import * as appActionCreators from './appActionCreators';
 
 export default {
-    ...appActionCreators,
+  ...appActionCreators
 };

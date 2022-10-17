@@ -1,8 +1,6 @@
-import { all, fork } from "redux-saga/effects";
-import appSaga from "./appSaga";
+import { all, fork } from 'redux-saga/effects';
+import appSaga from './appSaga';
 
 export default function* rootSaga() {
-    yield all([
-        fork(appSaga)
-    ]);
+  yield all([fork(appSaga)]);
 }

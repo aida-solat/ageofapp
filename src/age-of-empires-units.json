@@ -40,9 +40,7 @@
       "range": 5,
       "attack": 5,
       "armor": "0/0",
-      "attack_bonus": [
-        "+3 spearmen"
-      ],
+      "attack_bonus": ["+3 spearmen"],
       "accuracy": "85%"
     },
     {
@@ -64,9 +62,7 @@
       "range": 5,
       "attack": 6,
       "armor": "0/0",
-      "attack_bonus": [
-        "+3 spearmen"
-      ],
+      "attack_bonus": ["+3 spearmen"],
       "accuracy": "90%"
     },
     {
@@ -88,9 +84,7 @@
       "range": 4,
       "attack": 6,
       "armor": "0/0",
-      "attack_bonus": [
-        "+2 spearmen"
-      ],
+      "attack_bonus": ["+2 spearmen"],
       "search_radius": 6,
       "accuracy": "50%"
     },
@@ -113,9 +107,7 @@
       "range": 4,
       "attack": 7,
       "armor": "1/0",
-      "attack_bonus": [
-        "+2 spearmen"
-      ],
+      "attack_bonus": ["+2 spearmen"],
       "accuracy": "50%"
     },
     {
@@ -137,11 +129,7 @@
       "range": 7,
       "attack": 17,
       "armor": "1/0",
-      "attack_bonus": [
-        "1 spearmen",
-        "+10 infantry",
-        "+2 rams"
-      ],
+      "attack_bonus": ["1 spearmen", "+10 infantry", "+2 rams"],
       "accuracy": "65%"
     },
     {
@@ -208,10 +196,7 @@
       "hit_points": 50,
       "attack": 4,
       "armor": "0/2",
-      "attack_bonus": [
-        "+8 monks",
-        "+3 siege"
-      ]
+      "attack_bonus": ["+8 monks", "+3 siege"]
     },
     {
       "id": 10,
@@ -230,12 +215,7 @@
       "hit_points": 50,
       "attack": 7,
       "armor": "0/2",
-      "attack_bonus": [
-        "+8 monks",
-        "+3 siege",
-        "+2 cavalry",
-        "+1 ship/camel"
-      ]
+      "attack_bonus": ["+8 monks", "+3 siege", "+2 cavalry", "+1 ship/camel"]
     },
     {
       "id": 11,
@@ -254,12 +234,7 @@
       "hit_points": 60,
       "attack": 9,
       "armor": "0/4",
-      "attack_bonus": [
-        "+10 monks",
-        "+5 siege",
-        "+4 cavalry",
-        "+2 ship/camel"
-      ]
+      "attack_bonus": ["+10 monks", "+5 siege", "+4 cavalry", "+2 ship/camel"]
     },
     {
       "id": 12,
@@ -371,10 +346,7 @@
       "hit_points": 45,
       "attack": 6,
       "armor": "0/1",
-      "attack_bonus": [
-        "+2 eagles",
-        "+1 buildings"
-      ]
+      "attack_bonus": ["+2 eagles", "+1 buildings"]
     },
     {
       "id": 17,
@@ -393,10 +365,7 @@
       "hit_points": 55,
       "attack": 9,
       "armor": "0/1",
-      "attack_bonus": [
-        "+4 eagles",
-        "+2 buildings"
-      ]
+      "attack_bonus": ["+4 eagles", "+2 buildings"]
     },
     {
       "id": 18,
@@ -415,10 +384,7 @@
       "hit_points": 60,
       "attack": 11,
       "armor": "0/1",
-      "attack_bonus": [
-        "+6 eagles",
-        "+3 buildings"
-      ],
+      "attack_bonus": ["+6 eagles", "+3 buildings"],
       "search_radius": 4
     },
     {
@@ -438,10 +404,7 @@
       "hit_points": 70,
       "attack": 13,
       "armor": "1/1",
-      "attack_bonus": [
-        "+6 eagles",
-        "+3 buildings"
-      ],
+      "attack_bonus": ["+6 eagles", "+3 buildings"],
       "search_radius": 5
     },
     {
@@ -501,9 +464,7 @@
       "range": "4-16",
       "attack": 200,
       "armor": "1/150",
-      "attack_bonus": [
-        "+250 buildings"
-      ],
+      "attack_bonus": ["+250 buildings"],
       "accuracy": "15%"
     },
     {
@@ -521,9 +482,7 @@
       "line_of_sight": 18,
       "hit_points": 150,
       "armor": "2/8",
-      "attack_bonus": [
-        "+250 buildings"
-      ],
+      "attack_bonus": ["+250 buildings"],
       "accuracy": "15% (80% if walls/towers/buildings with target radius 1)"
     },
     {
@@ -596,12 +555,8 @@
       "hit_points": 50,
       "attack": 110,
       "armor": "0/3",
-      "attack_bonus": [
-        "+220 buildings"
-      ],
-      "armor_bonus": [
-        "+3 ships/camel"
-      ],
+      "attack_bonus": ["+220 buildings"],
+      "armor_bonus": ["+3 ships/camel"],
       "blast_radius": 2.5
     },
     {
@@ -620,12 +575,8 @@
       "hit_points": 60,
       "attack": 140,
       "armor": "0/3",
-      "attack_bonus": [
-        "+280 buildings"
-      ],
-      "armor_bonus": [
-        "+5 ships/camel"
-      ],
+      "attack_bonus": ["+280 buildings"],
+      "armor_bonus": ["+5 ships/camel"],
       "search_radius": 5,
       "blast_radius": 3.5
     },
@@ -653,9 +604,7 @@
         "+2 turtle ships",
         "+1 melee"
       ],
-      "armor_bonus": [
-        "+5 ships/camel"
-      ]
+      "armor_bonus": ["+5 ships/camel"]
     },
     {
       "id": 29,
@@ -681,9 +630,7 @@
         "+3 turtle ships",
         "+1 melee"
       ],
-      "armor_bonus": [
-        "+7 ships/camel"
-      ]
+      "armor_bonus": ["+7 ships/camel"]
     },
     {
       "id": 30,
@@ -703,11 +650,7 @@
       "range": 5,
       "attack": 6,
       "armor": "0/6",
-      "attack_bonus": [
-        "+6 buildings",
-        "+8 ships/camels",
-        "+3 rams"
-      ]
+      "attack_bonus": ["+6 buildings", "+8 ships/camels", "+3 rams"]
     },
     {
       "id": 31,
@@ -727,11 +670,7 @@
       "range": 6,
       "attack": 7,
       "armor": "0/6",
-      "attack_bonus": [
-        "+7 buildings",
-        "+9 ships/camels",
-        "+4 rams"
-      ]
+      "attack_bonus": ["+7 buildings", "+9 ships/camels", "+4 rams"]
     },
     {
       "id": 32,
@@ -751,11 +690,7 @@
       "range": 7,
       "attack": 8,
       "armor": "0/8",
-      "attack_bonus": [
-        "+8 buildings",
-        "+11 ships/camels",
-        "+4 rams"
-      ]
+      "attack_bonus": ["+8 buildings", "+11 ships/camels", "+4 rams"]
     },
     {
       "id": 33,
@@ -776,11 +711,7 @@
       "range": 6,
       "attack": 7,
       "armor": "0/6",
-      "attack_bonus": [
-        "+7 buildings",
-        "+9 ships",
-        "+4 rams"
-      ],
+      "attack_bonus": ["+7 buildings", "+9 ships", "+4 rams"],
       "accuracy": "100%"
     },
     {
@@ -801,11 +732,7 @@
       "range": 7,
       "attack": 8,
       "armor": "0/8",
-      "attack_bonus": [
-        "+8 buildings",
-        "+11 ships",
-        "+4 rams"
-      ],
+      "attack_bonus": ["+8 buildings", "+11 ships", "+4 rams"],
       "accuracy": "100%"
     },
     {
@@ -873,9 +800,7 @@
       "range": 6,
       "attack": 50,
       "armor": "6/5",
-      "armor_bonus": [
-        "+8 ships"
-      ],
+      "armor_bonus": ["+8 ships"],
       "blast_radius": 0.5
     },
     {
@@ -896,10 +821,7 @@
       "range": 6,
       "attack": 50,
       "armor": "8/6",
-      "armor_bonus": [
-        "+11 ships",
-        "+1 turtle ship armor"
-      ],
+      "armor_bonus": ["+11 ships", "+1 turtle ship armor"],
       "blast_radius": 0.5
     },
     {
@@ -1087,10 +1009,7 @@
       "range": "3-7",
       "attack": 40,
       "armor": "0/6",
-      "attack_bonus": [
-        "+35 buildings",
-        "+12 siege"
-      ],
+      "attack_bonus": ["+35 buildings", "+12 siege"],
       "blast_radius": 1
     },
     {
@@ -1111,10 +1030,7 @@
       "range": "3-8",
       "attack": 50,
       "armor": "0/7",
-      "attack_bonus": [
-        "+45 buildings",
-        "+12 siege"
-      ],
+      "attack_bonus": ["+45 buildings", "+12 siege"],
       "blast_radius": 1.25
     },
     {
@@ -1135,10 +1051,7 @@
       "range": "3-8",
       "attack": 75,
       "armor": "0/8",
-      "attack_bonus": [
-        "+60 buildings",
-        "+12 siege"
-      ],
+      "attack_bonus": ["+60 buildings", "+12 siege"],
       "blast_radius": 1.5
     },
     {
@@ -1163,9 +1076,7 @@
         "+40 siege",
         "+150 (+190 full) with siege engineers buildings"
       ],
-      "armor_bonus": [
-        "-3 melee"
-      ]
+      "armor_bonus": ["-3 melee"]
     },
     {
       "id": 55,
@@ -1189,10 +1100,7 @@
         "+50 siege",
         "+180 (+220 full) with siege engineers buildings"
       ],
-      "armor_bonus": [
-        "-3 melee",
-        "+1 ram armor"
-      ],
+      "armor_bonus": ["-3 melee", "+1 ram armor"],
       "blast_radius": 1.5
     },
     {
@@ -1217,10 +1125,7 @@
         "+65 siege",
         "+240 (+300 full) with siege engineers buildings"
       ],
-      "armor_bonus": [
-        "-3 melee",
-        "+2 ram armor"
-      ],
+      "armor_bonus": ["-3 melee", "+2 ram armor"],
       "blast_radius": 2
     },
     {
@@ -1294,10 +1199,7 @@
       "hit_points": 100,
       "attack": 5,
       "armor": "0/0",
-      "attack_bonus": [
-        "+10 against cavalry",
-        "+5 ships/camels"
-      ]
+      "attack_bonus": ["+10 against cavalry", "+5 ships/camels"]
     },
     {
       "id": 60,
@@ -1316,10 +1218,7 @@
       "hit_points": 120,
       "attack": 7,
       "armor": "0/0",
-      "attack_bonus": [
-        "+18 against cavalry",
-        "+9 ships/camels"
-      ],
+      "attack_bonus": ["+18 against cavalry", "+9 ships/camels"],
       "search_radius": 4
     },
     {
@@ -1389,9 +1288,7 @@
       "hit_points": 45,
       "attack": 3,
       "armor": "0/2",
-      "attack_bonus": [
-        "+6 monks"
-      ]
+      "attack_bonus": ["+6 monks"]
     },
     {
       "id": 65,
@@ -1409,9 +1306,7 @@
       "hit_points": 45,
       "attack": 5,
       "armor": "0/2",
-      "attack_bonus": [
-        "+6 monks"
-      ]
+      "attack_bonus": ["+6 monks"]
     },
     {
       "id": 66,
@@ -1429,9 +1324,7 @@
       "hit_points": 60,
       "attack": 7,
       "armor": "0/2",
-      "attack_bonus": [
-        "+10 monks"
-      ]
+      "attack_bonus": ["+10 monks"]
     },
     {
       "id": 67,
@@ -1449,9 +1342,7 @@
       "hit_points": 75,
       "attack": 7,
       "armor": "0/2",
-      "attack_bonus": [
-        "+12 monks"
-      ]
+      "attack_bonus": ["+12 monks"]
     },
     {
       "id": 68,
@@ -1469,10 +1360,7 @@
       "hit_points": 25,
       "attack": 3,
       "armor": "0/0",
-      "attack_bonus": [
-        "+3 buildings",
-        "+6 stone defense"
-      ]
+      "attack_bonus": ["+3 buildings", "+6 stone defense"]
     },
     {
       "id": 69,
@@ -1491,10 +1379,7 @@
       "hit_points": 55,
       "attack": 9,
       "armor": "0/1",
-      "attack_bonus": [
-        "+2 eagles",
-        "+2 buildings"
-      ]
+      "attack_bonus": ["+2 eagles", "+2 buildings"]
     },
     {
       "id": 70,
@@ -1513,10 +1398,7 @@
       "hit_points": 72,
       "attack": 14,
       "armor": "2/1",
-      "attack_bonus": [
-        "+3 eagles",
-        "+3 buildings"
-      ]
+      "attack_bonus": ["+3 eagles", "+3 buildings"]
     },
     {
       "id": 71,
@@ -1535,12 +1417,8 @@
       "hit_points": 110,
       "attack": 9,
       "armor": "2/1",
-      "attack_bonus": [
-        "+9 infantry"
-      ],
-      "armor_bonus": [
-        "+12 cavalry"
-      ]
+      "attack_bonus": ["+9 infantry"],
+      "armor_bonus": ["+12 cavalry"]
     },
     {
       "id": 72,
@@ -1559,12 +1437,8 @@
       "hit_points": 150,
       "attack": 12,
       "armor": "2/1",
-      "attack_bonus": [
-        "+12 infantry"
-      ],
-      "armor_bonus": [
-        "+16 cavalry"
-      ]
+      "attack_bonus": ["+12 infantry"],
+      "armor_bonus": ["+16 cavalry"]
     },
     {
       "id": 73,
@@ -1585,9 +1459,7 @@
       "range": 4,
       "attack": 8,
       "armor": "0/0",
-      "attack_bonus": [
-        "+2 spearmen"
-      ],
+      "attack_bonus": ["+2 spearmen"],
       "accuracy": "85%"
     },
     {
@@ -1609,9 +1481,7 @@
       "range": 6,
       "attack": 8,
       "armor": "0/0",
-      "attack_bonus": [
-        "+2 spearmen"
-      ],
+      "attack_bonus": ["+2 spearmen"],
       "accuracy": "85%"
     },
     {
@@ -1633,9 +1503,7 @@
       "range": 6,
       "attack": 16,
       "armor": "2/2",
-      "attack_bonus": [
-        "+4 rams"
-      ],
+      "attack_bonus": ["+4 rams"],
       "accuracy": "65%"
     },
     {
@@ -1657,10 +1525,7 @@
       "range": 6,
       "attack": 18,
       "armor": "2/2",
-      "attack_bonus": [
-        "+6 ram",
-        "+2 buildings"
-      ],
+      "attack_bonus": ["+6 ram", "+2 buildings"],
       "accuracy": "70%"
     },
     {
@@ -1726,11 +1591,7 @@
       "hit_points": 50,
       "attack": 10,
       "armor": "1/0",
-      "attack_bonus": [
-        "+12 eagles",
-        "+2 buildings",
-        "+10 infantry"
-      ]
+      "attack_bonus": ["+12 eagles", "+2 buildings", "+10 infantry"]
     },
     {
       "id": 80,
@@ -1749,11 +1610,7 @@
       "hit_points": 75,
       "attack": 12,
       "armor": "2/0",
-      "attack_bonus": [
-        "+12 eagles",
-        "+2 buildings",
-        "+10 infantry"
-      ]
+      "attack_bonus": ["+12 eagles", "+2 buildings", "+10 infantry"]
     },
     {
       "id": 81,
@@ -1774,9 +1631,7 @@
       "range": 8,
       "attack": 17,
       "armor": "1/0",
-      "attack_bonus": [
-        "+2 rams"
-      ],
+      "attack_bonus": ["+2 rams"],
       "accuracy": "50%"
     },
     {
@@ -1797,9 +1652,7 @@
       "range": 8,
       "attack": 22,
       "armor": "2/0",
-      "attack_bonus": [
-        "+3 rams"
-      ],
+      "attack_bonus": ["+3 rams"],
       "accuracy": "50%"
     },
     {
@@ -1821,9 +1674,7 @@
       "range": 6,
       "attack": 6,
       "armor": "0/0",
-      "attack_bonus": [
-        "+2 spearmen"
-      ],
+      "attack_bonus": ["+2 spearmen"],
       "accuracy": "70%"
     },
     {
@@ -1845,9 +1696,7 @@
       "range": 8,
       "attack": 7,
       "armor": "0/1",
-      "attack_bonus": [
-        "+2 spearmen"
-      ],
+      "attack_bonus": ["+2 spearmen"],
       "accuracy": "70%"
     },
     {
@@ -1869,12 +1718,8 @@
       "range": 3,
       "attack": 7,
       "armor": "0/0",
-      "attack_bonus": [
-        "+9 cavalry"
-      ],
-      "armor_bonus": [
-        "+11 cavalry"
-      ]
+      "attack_bonus": ["+9 cavalry"],
+      "armor_bonus": ["+11 cavalry"]
     },
     {
       "id": 86,
@@ -1894,12 +1739,8 @@
       "range": 3,
       "attack": 10,
       "armor": "1/0",
-      "attack_bonus": [
-        "+12 cavalry"
-      ],
-      "armor_bonus": [
-        "+11 cavalry"
-      ]
+      "attack_bonus": ["+12 cavalry"],
+      "armor_bonus": ["+11 cavalry"]
     },
     {
       "id": 87,
@@ -1920,10 +1761,7 @@
       "range": 4,
       "attack": 6,
       "armor": "0/0",
-      "attack_bonus": [
-        "+1 spearmen",
-        "+3 siege"
-      ],
+      "attack_bonus": ["+1 spearmen", "+3 siege"],
       "search_radius": 5,
       "accuracy": "95%"
     },
@@ -1945,10 +1783,7 @@
       "range": 4,
       "attack": 8,
       "armor": "0/1",
-      "attack_bonus": [
-        "+1 spearmen",
-        "+5 siege"
-      ],
+      "attack_bonus": ["+1 spearmen", "+5 siege"],
       "search_radius": 6,
       "accuracy": "95%"
     },
@@ -1971,10 +1806,7 @@
       "range": 4,
       "attack": 5,
       "armor": "0/1",
-      "attack_bonus": [
-        "+1 infantry",
-        "+2 spearmen"
-      ],
+      "attack_bonus": ["+1 infantry", "+2 spearmen"],
       "accuracy": "80%"
     },
     {
@@ -1996,10 +1828,7 @@
       "range": 5,
       "attack": 5,
       "armor": "0/2",
-      "attack_bonus": [
-        "+2 infantry",
-        "+2 spearmen"
-      ],
+      "attack_bonus": ["+2 infantry", "+2 spearmen"],
       "accuracy": "80%"
     },
     {
@@ -2019,11 +1848,7 @@
       "hit_points": 60,
       "attack": 8,
       "armor": "1/1",
-      "attack_bonus": [
-        "+2 eagles",
-        "+2 buildings",
-        "+10 unique units"
-      ]
+      "attack_bonus": ["+2 eagles", "+2 buildings", "+10 unique units"]
     },
     {
       "id": 92,
@@ -2042,11 +1867,7 @@
       "hit_points": 80,
       "attack": 12,
       "armor": "1/1",
-      "attack_bonus": [
-        "+3 eagles",
-        "+3 buildings",
-        "+12 unique units"
-      ]
+      "attack_bonus": ["+3 eagles", "+3 buildings", "+12 unique units"]
     },
     {
       "id": 93,
@@ -2113,10 +1934,7 @@
       "hit_points": 70,
       "attack": 12,
       "armor": "5/2",
-      "attack_bonus": [
-        "+4 eagles",
-        "+4 buildings"
-      ]
+      "attack_bonus": ["+4 eagles", "+4 buildings"]
     },
     {
       "id": 96,
@@ -2135,10 +1953,7 @@
       "hit_points": 100,
       "attack": 17,
       "armor": "10/2",
-      "attack_bonus": [
-        "+4 eagles",
-        "+4 buildings"
-      ]
+      "attack_bonus": ["+4 eagles", "+4 buildings"]
     },
     {
       "id": 97,
@@ -2159,10 +1974,7 @@
       "range": 3,
       "attack": 7,
       "armor": "0/0",
-      "attack_bonus": [
-        "+1 eagles",
-        "+1 buildings"
-      ]
+      "attack_bonus": ["+1 eagles", "+1 buildings"]
     },
     {
       "id": 98,
@@ -2183,10 +1995,7 @@
       "range": 4,
       "attack": 8,
       "armor": "1/0",
-      "attack_bonus": [
-        "+2 eagles",
-        "+2 buildings"
-      ]
+      "attack_bonus": ["+2 eagles", "+2 buildings"]
     },
     {
       "id": 99,
@@ -2205,10 +2014,7 @@
       "hit_points": 450,
       "attack": 15,
       "armor": "1/2",
-      "attack_bonus": [
-        "+7 buildings",
-        "+7 stone defense"
-      ]
+      "attack_bonus": ["+7 buildings", "+7 stone defense"]
     },
     {
       "id": 100,
@@ -2227,10 +2033,7 @@
       "hit_points": 600,
       "attack": 20,
       "armor": "1/3",
-      "attack_bonus": [
-        "+10 buildings",
-        "+10 stone defense"
-      ]
+      "attack_bonus": ["+10 buildings", "+10 stone defense"]
     },
     {
       "id": 101,
@@ -2251,9 +2054,7 @@
       "range": 4,
       "attack": 9,
       "armor": "0/3",
-      "attack_bonus": [
-        "+5 buildings"
-      ],
+      "attack_bonus": ["+5 buildings"],
       "search_radius": 6,
       "accuracy": "100%"
     },
@@ -2276,9 +2077,7 @@
       "range": 5,
       "attack": 9,
       "armor": "0/4",
-      "attack_bonus": [
-        "+5 buildings"
-      ],
+      "attack_bonus": ["+5 buildings"],
       "search_radius": 7,
       "accuracy": "100%"
     },
@@ -2299,10 +2098,7 @@
       "hit_points": 65,
       "attack": 8,
       "armor": "0/1",
-      "attack_bonus": [
-        "+2 eagles",
-        "+2 buildings"
-      ]
+      "attack_bonus": ["+2 eagles", "+2 buildings"]
     },
     {
       "id": 104,
@@ -2321,10 +2117,7 @@
       "hit_points": 80,
       "attack": 13,
       "armor": "0/1",
-      "attack_bonus": [
-        "+3 eagles",
-        "+3 buildings"
-      ]
+      "attack_bonus": ["+3 eagles", "+3 buildings"]
     }
   ]
 }

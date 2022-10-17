@@ -1,14 +1,9 @@
-const api = (baseUrl:string) => {
+const api = (baseUrl: string) => {
+  const getUnits = async () => fetch(baseUrl + '/units').then((x) => x.json());
 
-
-
-    const getUnits =  async () => fetch(baseUrl + '/units').then(x=>x.json())
-
-
-    return {
-        getUnits
-    }
-}
-
+  return {
+    getUnits
+  };
+};
 
 export default api;
